@@ -1,4 +1,4 @@
-# Accessible & Responsive Web Apps (due by August 6th)
+# Accessible & Responsive Web Apps (due August 6th)
 
 ## 1. Why Responsive:
 
@@ -66,5 +66,5 @@ Incorporate CSS styling into your accessible web design and use accessible color
 
 ## 17. Introducing the Service Worker
 
-## PROJECT - Restaurant Reviews App—Stage 1
+## PROJECT - Restaurant Reviews App — Stage 1
 In this real world case study, given the front end code for a static Restaurant Reviews App, revise the site to be responsive and achieve accessibility standards.
