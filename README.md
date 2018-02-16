@@ -22,6 +22,7 @@
 
 * [Khaledkzy](https://github.com/khaledkzy)
 * [Vladi Stanchev](https://github.com/vladi-stanchev)
+* [Nicolas Marcora](https://github.com/nmarcora)
 
 ### License
 
