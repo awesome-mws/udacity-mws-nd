@@ -1,4 +1,4 @@
-# Performant Web Apps (due by July 3rd)
+# Performant Web Apps (due July 3rd)
 
 ## 1. HTTP's Request/Response Cycle
 You'll learn the ins and outs of requests. You'll look at how a page is requested, the headers that are received, HTTP codes, and how data is transferred.
