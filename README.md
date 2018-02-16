@@ -21,8 +21,8 @@
 ## Contributors
 
 * [Khaledkzy](https://github.com/khaledkzy)
-* [Vladi Stanchev](https://github.com/vladi-stanchev)
 * [Nicolas Marcora](https://github.com/nmarcora)
+* [Vladi Stanchev](https://github.com/vladi-stanchev)
 
 ### License
 
