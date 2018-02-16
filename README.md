@@ -1,5 +1,9 @@
 # Google MWS ND
 
+## [Part 1 - Accessible & Responsive Web Apps](./PART-1.md)
+## [Part 2 - Dynamic & Offline Capable Web Apps](./PART-2.md)
+## [Part 3 - Performant Web Apps](./PART-3.md)
+
 ## Useful Links
 
 * [AMA Sessions](https://github.com/rothdennis/Google-Developer-Nanodegree-Scholarship)
