@@ -42,5 +42,5 @@ Discover how changing styles can result in surprisingly slow page speed. You'll 
 ## 14. Compositing and Painting
 Learn how to manage page layers and improve page performance using the Chrome Dev Tools Paint Profiler.
 
-## PROJECT - Restaurant Reviews App—Stage 3
+## PROJECT - Restaurant Reviews App — Stage 3
 Given a backend server, implement login and review submission logic on the client side, add search capability to the database and leverage offline capabilities.
