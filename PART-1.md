@@ -19,3 +19,5 @@
 
 5. What's the difference?
 > The viewport and the device pixel ratio are both likely causes for the differences between devices.
+
+6. 
