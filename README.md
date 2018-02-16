@@ -19,8 +19,6 @@
 * [Khaledkzy](https://github.com/khaledkzy)
 * [Vladi Stanchev](https://github.com/vladi-stanchev)
 
-# I'll merge your requests so feel free to contribute.
-
 ### License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
