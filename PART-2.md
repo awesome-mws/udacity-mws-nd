@@ -40,5 +40,5 @@ Learn how to use tooling to optimize your apps for production use. You'll learn 
 ## 15. Web Tooling and Automation Conclusion
 You're on your way to tooling greatness. In this lesson, you'll learn about tooling to scaffold entire projects.
 
-## PROJECT - Restaurant Reviews App—Stage 2
+## PROJECT - Restaurant Reviews App — Stage 2
 Build off of your existing Restaurant Reviews app to create a fully-featured app that communicates with a backend server and handles asynchronous requests.
