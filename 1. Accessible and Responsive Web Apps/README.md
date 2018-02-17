@@ -22,7 +22,14 @@
 5. What's the difference?
 > The viewport and the device pixel ratio are both likely causes for the differences between devices.
 
-6. 
+6. Calculating CSS Pixels
+> Divide 1920px by 2 and you will get the answer :)
+
+7. How wide is the viewport?
+> to solve the quiz divide the pixels by the DPR number.
+
+8. Setting the Viewport
+>  initial-scale=1.0 means that the ratio between the DIP and CSS pixels is 1:1
 
 ## 3. Building Up
 
