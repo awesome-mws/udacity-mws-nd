@@ -27,9 +27,9 @@
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](./contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](./contributing.md) first. If you have your pull request merged, feel free to add your name to the list below.
 
-## Contributors
+### Contributors
 
 * [Khaledkzy](https://github.com/khaledkzy)
 * [Nicolas Marcora](https://github.com/nmarcora)
