@@ -73,7 +73,7 @@
 > Developers usually use max-width and min-width media queries because you can't make mistakes with them. . Max-width styles get apllied when the screen is smaller than the width the has been specified.
 
 
-6.Which styles are applied?
+6. Which styles are applied?
 > Remove what is there and change it with this code.
 ```css
 body {
@@ -93,73 +93,73 @@ body {
 }
 ```
 
-7.Breakpoints
+7. Breakpoints
 > That you can changes the entire layout of your page.
 
 8. Breakpoints Pt. II
 > To see the screen resolution on the window you need to open devtools. In that lessons you don't see the devtools open bbecause he openned the devtools in a separate window. 
 
-9.Number of Breakpoints
+9. Number of Breakpoints
 >  2 for medium.com and 2 for the course example.
 
-10.Picking Breakpoints
+10. Picking Breakpoints
 > Use your content as a guide to pick your breakpoints.
 
-11.Picking Breakpoints 2
+11. Picking Breakpoints 2
 
-12.Pick a Breakpoint
+12. Pick a Breakpoint
 
-13.Complex Media Queries
+13. Complex Media Queries
 
-14.What Styles Are Applied? [Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+14. What Styles Are Applied? [Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 ```css
 @media screen and ( max-width:400px)
 @media screen and ( min-width:301px) and ( max-width:600px)
 @media screen and ( min-width:601px)
 @media screen and ( min-width:961px)
 ```
-15.Grids[guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+15. Grids [Helpful Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 > Bootstrap and 960
 
-16.Flexbox Intro
+16. Flexbox Intro
 
-17.Flex Item
+17. Flex Item
 > using the order you can shage the order to whatever you want.
 
-18.Deconstructing a Flexbox Layout
+18. Deconstructing a Flexbox Layout
 
-19.Deconstructing a Flexbox Layout
+19. Deconstructing a Flexbox Layout
 
-20.Deconstructing a Flexbox Layout(quiz)
+20. Deconstructing a Flexbox Layout(quiz)
 > just remember that three coulmns width will be 33.33% because it will give you around 99.99% almost 100%.
 
 
 ## 4. Common Responsive Patterns
 Walk through the most popular responsive layout patterns and learn the tools needed to implement them in your own designs.
 
-1.Intro to Patterns
+1. Intro to Patterns
 > There are 4 patterns: Mostly Fluid / Column Drop / Layout Shifter / Off Canvas 
 
-2.Pattern - Column Drop
+2. Pattern - Column Drop
 
-3.Pattern - Mostly Fluid
+3. Pattern - Mostly Fluid
 
-4.Mostly Fluid Part 1(quiz)
+4. Mostly Fluid Part 1(quiz)
 
-5.Mostly Fluid Part 2(quiz)
+5. Mostly Fluid Part 2(quiz)
 > The red is 33 and not 25.
 
-6.Combining Fluid Layouts
+6. Combining Fluid Layouts
 
-7.Pattern - Layout Shifter
+7. Pattern - Layout Shifter
 
-8.Which is Which?
+8. Which is Which?
 
-9.Pattern - Off Canvas
+9. Pattern - Off Canvas
 
-10.Off Canvas Visualization
+10. Off Canvas Visualization
 
-11.Project Part 2
+11. Project Part 2
 
 ## 5. Optimizations
 Learn how to optimize images, tables, and fonts to make for the best responsive layouts.
