@@ -1,11 +1,8 @@
-<p align="center">
-  <br>
-  <img width="300" src="./awesome_mws_logo.png" alt="logo of repository">
-  <br>
-  <br>
-</p>
+# Udacity Mobile Web Specialist Nanodegree [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-# Udacity Mobile Web Specialist ND [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[<img src="./awesome_mws_logo.png" align="right" width="100">](https://github.com/awesome-mws/udacity-mws-nd/)
+
+> A curated list of awesome resources for Udacity's [Mobile Web Specialist](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024) ND
 
 ## Contents
 1. [Accessible & Responsive Web Apps](./1.%20Accessible%20and%20Responsive%20Web%20Apps)
@@ -14,9 +11,13 @@
 
 ## Useful Links
 
-* [Google Developer ND Scholarship Site](https://sites.google.com/knowlabs.com/gdnd2017/)
-
 * [AMA Sessions](https://github.com/rothdennis/Google-Developer-Nanodegree-Scholarship)
+
+* [MWS Challenge 2017/2018 Repo](https://github.com/DomanskaGrzyb/awesome-google-mobile-web-challenge-links-2017)
+
+## Community
+
+* [Google Developer ND Scholarship Site](https://sites.google.com/knowlabs.com/gdnd2017/)
 
 * [MWS Slack](https://udacity-mobile-web.slack.com)
 
@@ -24,7 +25,9 @@
 
 * [Reddit for MWS](https://www.reddit.com/r/udacitymws/)
 
-* [MWS Challenge 2017/2018 Repo](https://github.com/DomanskaGrzyb/awesome-google-mobile-web-challenge-links-2017)
+## Contribute
+
+Contributions welcome! Read the [contribution guidelines](./contributing.md) first.
 
 ## Contributors
 
