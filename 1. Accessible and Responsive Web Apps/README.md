@@ -137,9 +137,55 @@ body {
 ## 4. Common Responsive Patterns
 Walk through the most popular responsive layout patterns and learn the tools needed to implement them in your own designs.
 
+1.Intro to Patterns
+> There are 4 patterns: Mostly Fluid / Column Drop / Layout Shifter / Off Canvas 
+
+2.Pattern - Column Drop
+
+3.Pattern - Mostly Fluid
+
+4.Mostly Fluid Part 1(quiz)
+
+5.Mostly Fluid Part 2(quiz)
+> The red is 33 and not 25.
+
+6.Combining Fluid Layouts
+
+7.Pattern - Layout Shifter
+
+8.Which is Which?
+
+9.Pattern - Off Canvas
+
+10.Off Canvas Visualization
+
+11.Project Part 2
+
 ## 5. Optimizations
 Learn how to optimize images, tables, and fonts to make for the best responsive layouts.
 
+1.Lesson Intro
+
+2. Images
+> You could have a high quality image as well as a smaller one.
+
+3. Tables
+> Hiddedn Colums / No More Tables / contained tables
+
+4.Responsive Tables - Hidden Columns
+>
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
 ## 6. Getting Up and Running
 Sam Dutton, the developer advocate at Google, explains the importance of getting responsive images right and helps you set up mobile developer tools.
 
