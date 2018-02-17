@@ -93,41 +93,45 @@ body {
 }
 ```
 
-7.
+7.Breakpoints
+> That you can changes the entire layout of your page.
 
-8. 
+8. Breakpoints Pt. II
+> To see the screen resolution on the window you need to open devtools. In that lessons you don't see the devtools open bbecause he openned the devtools in a separate window. 
 
-9.
+9.Number of Breakpoints
+>  2 for medium.com and 2 for the course example.
 
-10.
+10.Picking Breakpoints
+> Use your content as a guide to pick your breakpoints.
 
-11.
+11.Picking Breakpoints 2
 
-12.
+12.Pick a Breakpoint
 
-13.
+13.Complex Media Queries
 
-14.
+14.What Styles Are Applied? [Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+```css
+@media screen and ( max-width:400px)
+@media screen and ( min-width:301px) and ( max-width:600px)
+@media screen and ( min-width:601px)
+@media screen and ( min-width:961px)
+```
+15.Grids[guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+> Bootstrap and 960
 
-15.
+16.Flexbox Intro
 
-16.
+17.Flex Item
+> using the order you can shage the order to whatever you want.
 
-17.
+18.Deconstructing a Flexbox Layout
 
-18.
+19.Deconstructing a Flexbox Layout
 
-19.
-
-20.
-
-21.
-
-22.
-
-
-
-
+20.Deconstructing a Flexbox Layout(quiz)
+> just remember that three coulmns width will be 33.33% because it will give you around 99.99% almost 100%.
 
 
 ## 4. Common Responsive Patterns
