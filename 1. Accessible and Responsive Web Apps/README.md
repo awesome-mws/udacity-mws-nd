@@ -3,7 +3,7 @@
 ## 1. Why Responsive:
 
 1.  Quiz 8
-> press on (Ctrl + Shift + M) -- toggle device toolbar. Then go the drop-down menu and then (Edit...). Then (Add Custom Device).
+> Hold Down (Ctrl + Shift + M) -- toggle device toolbar. Then go the drop-down menu and then (Edit...). Then (Add Custom Device).
 
 ## 2. Starting Small:
 
@@ -30,6 +30,32 @@
 
 8. Setting the Viewport
 >  initial-scale=1.0 means that the ratio between the DIP and CSS pixels is 1:1
+
+9. Setting the Viewport
+> To pass the quiz add `<meta name="viewport" content="width=device-width, initial-scale=1.0">` to the header of the site.
+
+10. Large Fixed Width Elements
+> Never used fixed width or absolute positions. You should use relative positions
+
+11. Max-width on elements
+> Setting a Max width of 100% should avoid overflow for most elemetns.
+
+12. Relative Sizes
+`max-width` overrides `width` so if you have them both then the max width will overrides the styles
+
+13. Tap Target Sizes
+> Human fingers are at least 40 CSS pixels. So it is safer to give your buttons a Height and width of 48px.
+
+14. Tap Targets
+> `min-width: 48px; min-height: 48px;`
+
+15. Start Small
+> When you start small there might be no need to re-design your website for larger screens. Also, you need to prioritize what is important for you.
+
+16. Project Part 1 [Inspect Styles](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/)
+> The Full answer of this quiz is in lesson `17`
+
+
 
 ## 3. Building Up
 
