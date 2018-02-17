@@ -1,6 +1,6 @@
 # Udacity Mobile Web Specialist Nanodegree [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-[<img src="./awesome_mws_logo.png" align="right" width="100">](https://github.com/awesome-mws/udacity-mws-nd/)
+[<img src="./awesome_mws_logo.png" align="right" width="150">](https://github.com/awesome-mws/udacity-mws-nd/)
 
 > A curated list of awesome resources for Udacity's [Mobile Web Specialist](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024) ND
 
