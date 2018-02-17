@@ -18,6 +18,8 @@
 
 * [Reddit for MWS](https://www.reddit.com/r/udacitymws/)
 
+* [ MWS Challenge 2017/2018](https://github.com/DomanskaGrzyb/awesome-google-mobile-web-challenge-links-2017)
+
 ## Contributors
 
 * [Khaledkzy](https://github.com/khaledkzy)
