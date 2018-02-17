@@ -4,7 +4,7 @@ Thank you for taking time to contribute. We really appreciate your help.
 
 Awesome lists are a curation, not a collection. We want to make it easier for students to find additional learning resources in the context of this scholarship. Quality matters and not quantity. This is why we cannot accept every submission. However, we are always open for feedback to ensure a certain level of awesomeness :wink:
 
-but **what is awesome ?**
+but **what is awesome?**
 
 ## Awesome = Community
 
@@ -41,7 +41,7 @@ Please [submit a pull request (PR)](#how-to-submit-a-pull-request) or [create an
 
 2. Clone the fork on your local machine via the terminal command:
 ```bash
-git clone  https://github.com/[your_username]/awesome-google-mobile-web-challenge-links-2017
+git clone  https://github.com/[your_username]/udacity-mws-nd
 ```
 
 3. Make your changes locally.
@@ -64,7 +64,7 @@ git push master
 7. Back to GitHub, create a pull request from your fork to this repository.
 
 ## A final note
-If your submission was successful, feel free to add your name in alphabetical order to the [contributors list](README.md#thanks-to-our-contributors)
+If your submission was successful, feel free to add your name in alphabetical order to the [contributors list](README.md#contributors)
 
 ---
 
