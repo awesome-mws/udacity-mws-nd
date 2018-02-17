@@ -59,6 +59,77 @@
 
 ## 3. Building Up
 
+1. Lesson Intro
+
+2. Basic Media Query Intro
+> Media Query are used to apply styles depending on device characterstics 
+
+3. Adding a Basic Media Query [Useful Link](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+4. Adding a basic media query 2
+> when you use `min-width:500px` it means that if the viewport is less than 500px then there will be no styles applied. It is like saying (apply these styles only if my width is bigger than 500px.) or ( don't apply these styles unless my width is bigger than 500px.)
+
+5. Next Step Media Queries
+> Developers usually use max-width and min-width media queries because you can't make mistakes with them. . Max-width styles get apllied when the screen is smaller than the width the has been specified.
+
+
+6.Which styles are applied?
+> Remove what is there and change it with this code.
+```css
+body {
+    background-color: green;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: red;
+    }
+}
+```
+
+7.
+
+8. 
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+
+
+
+
+
 ## 4. Common Responsive Patterns
 Walk through the most popular responsive layout patterns and learn the tools needed to implement them in your own designs.
 
