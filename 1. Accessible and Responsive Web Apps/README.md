@@ -3,15 +3,15 @@
 ## 1. Why Responsive:
 
 1.  Quiz 8
-> press on (ctrl + Shift + M) -- toggle device toolbar. Then go the dropdown menu and then (Edit...). Then (Add Custom Device).
+> press on (Ctrl + Shift + M) -- toggle device toolbar. Then go the drop-down menu and then (Edit...). Then (Add Custom Device).
 
 ## 2. Starting Small:
 
 1. Defining the Viewport
-> His chrome book is 2560pixel width. However when he open the viewport width he gets only 1280px. WHY ? becuase not all pixels are cerated equally ?!
+> His chrome book is 2560pixel width. However, when he opens the viewport width he gets only 1280px. WHY? because not all pixels are created equally ?!
 
 2. Pixels, pixels and moar pixels!
-> Hardware Pixels vs Device Independented Pixel -- DIP will always take same amount of display on the screen regardless of the pixel desity of the display. The 1280px DIPs scales up to 2560px HP. So you should always include the ViewPort Meta.
+> Hardware Pixels vs Device Independent Pixel -- DIP will always take the same amount of display on the screen regardless of the pixel density of the display. The 1280px DIPs scales up to 2560px HP. So you should always include the ViewPort Meta.
 
 3. Pixelation
 > mobile device pixels that found on the specs are the HP.
@@ -40,7 +40,7 @@ Walk through the most popular responsive layout patterns and learn the tools nee
 Learn how to optimize images, tables, and fonts to make for the best responsive layouts.
 
 ## 6. Getting Up and Running
-Sam Dutton, developer advocate at Google, explains the importance of getting responsive images right and helps you setup mobile developer tools.
+Sam Dutton, the developer advocate at Google, explains the importance of getting responsive images right and helps you set up mobile developer tools.
 
 ## 7. Units, Formats, Environments
 Optimize images to display beautifully on all screen sizes. Learn about the difference between Raster vs Vector images, responsive CSS units, and setting up optimization tools.
@@ -52,7 +52,7 @@ Dive deep into image alternatives like CSS and icon fonts and learn common strat
 Learn to use the srcset attribute and the picture element to choose images of the right size for your application for every viewing context.
 
 ## 10. Accessibility Overview
-Explore the diversity of different users experience with web sites and applications. Learn about using screen readers practically and recognize the challenge of building web experiences for all users.
+Explore the diversity of different users experience with websites and applications. Learn about using screen readers practically and recognize the challenge of building web experiences for all users.
 
 ## 11. Focus
 Manage focus - the location on a page that receives input from the keyboard. Discover how some users navigate website entirely with the keyboard, and how to optimize their experience.
@@ -67,11 +67,11 @@ Implement effective semantic navigation using headings, link text and landmarks.
 Sometimes an HTML element may not have a role or value assigned semantically. In this lesson, you'll use ARIA attributes to provide context for screen readers.
 
 ## 15. Style
-Incorporate CSS styling into your accessible web design and use accessible color schemes to improve accessibility.
+Incorporate CSS styling into your accessible web design and use accessible colour schemes to improve accessibility.
 
 ## 16. The Benefits of Offline First
 
 ## 17. Introducing the Service Worker
 
 ## PROJECT - Restaurant Reviews App — Stage 1
-In this real world case study, given the front end code for a static Restaurant Reviews App, revise the site to be responsive and achieve accessibility standards.
+In this real-world case study, given the front-end code for a static Restaurant Reviews App, revise the site to be responsive and achieve accessibility standards.
