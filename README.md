@@ -11,11 +11,11 @@
 
 * [Google Developer ND Scholarship Site](https://sites.google.com/knowlabs.com/gdnd2017/)
 
-* [MWS Slack `[Invite]`](https://mobile-web-slack.udacity.com/)
+* [MWS Slack](https://udacity-mobile-web.slack.com)
 
-* [FEND Slack `[Invite]`](https://fend-slack-invite.herokuapp.com/)
+* [FEND Slack](https://fend.slack.com)
 
-* [AND Slack `[Invite]`](https://androidbasicsnd.udacity.com/)
+* [AND Slack](https://androidbasicsnd.slack.com)
 
 * [Reddit for MWS](https://www.reddit.com/r/udacitymws/)
 
