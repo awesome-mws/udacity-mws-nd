@@ -1,8 +1,8 @@
-# Udacity Mobile Web Specialist Nanodegree [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Udacity Mobile Web Specialist ND [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [<img src="./awesome_mws_logo.png" align="right" width="150">](https://github.com/awesome-mws/udacity-mws-nd/)
 
-> A curated list of awesome resources for Udacity's [Mobile Web Specialist](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024) ND
+> A curated list of awesome resources for Udacity's [Mobile Web Specialist](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024) Nanodegree
 
 ## Contents
 1. [Accessible & Responsive Web Apps](./1.%20Accessible%20and%20Responsive%20Web%20Apps)
