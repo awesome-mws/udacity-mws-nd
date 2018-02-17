@@ -1,8 +1,9 @@
-# Google MWS ND
+# Google MWS ND [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-## [Part 1 - Accessible & Responsive Web Apps](./PART-1.md)
-## [Part 2 - Dynamic & Offline Capable Web Apps](./PART-2.md)
-## [Part 3 - Performant Web Apps](./PART-3.md)
+## Contents
+* [Part 1 - Accessible & Responsive Web Apps](./PART-1.md)
+* [Part 2 - Dynamic & Offline Capable Web Apps](./PART-2.md)
+* [Part 3 - Performant Web Apps](./PART-3.md)
 
 ## Useful Links
 
