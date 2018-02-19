@@ -173,20 +173,20 @@ Learn how to optimize images, tables, and fonts to make for the best responsive 
 3. Tables
 > Hiddedn Colums / No More Tables / Contained Tables
 
-4.Responsive Tables - Hidden Columns
->
+4. Responsive Tables - Hidden Columns
 
-5.
+5. Hide Some Columns
 
-6.
+6. Responsive Tables - No More Tables
 
-7.
+7. Responsive Tables - Contained Scrolling
 
-8.
+8. Fonts
 
-9.
+9.Minor Breakpoints
 
-10.
+10.Project.
+
 ## 6. Getting Up and Running
 Sam Dutton, the developer advocate at Google, explains the importance of getting responsive images right and helps you set up mobile developer tools.
 
