@@ -174,16 +174,20 @@ Learn how to optimize images, tables, and fonts to make for the best responsive 
 > Hiddedn Colums / No More Tables / Contained Tables
 
 4. Responsive Tables - Hidden Columns
+> The drawback of this approach is that you hide content from the users.
 
-5. Hide Some Columns
+5. Hide Some Columns [helpful link](https://www.thoughtco.com/display-none-vs-visibility-hidden-3466884)
+> @media screen and (max-width:499px){ .gametime { display:none } } 
 
 6. Responsive Tables - No More Tables
+> This technique show all the data the users want to see
 
 7. Responsive Tables - Contained Scrolling
 
 8. Fonts
 
 9.Minor Breakpoints
+> Like changing the icons size or making the font a bit bigger.
 
 10.Project.
 
