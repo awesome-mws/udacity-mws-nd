@@ -181,10 +181,14 @@ Learn how to optimize images, tables, and fonts to make for the best responsive 
 
 6. Responsive Tables - No More Tables
 > This technique show all the data the users want to see
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/5.6%20-%201.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/5.6%20-%202.PNG)
 
 7. Responsive Tables - Contained Scrolling
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/5.7.PNG)
 
 8. Fonts
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/5.8.PNG)
 
 9.Minor Breakpoints
 > Like changing the icons size or making the font a bit bigger.
