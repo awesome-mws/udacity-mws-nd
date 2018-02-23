@@ -198,6 +198,24 @@ Learn how to optimize images, tables, and fonts to make for the best responsive 
 ## 6. Getting Up and Running
 Sam Dutton, the developer advocate at Google, explains the importance of getting responsive images right and helps you set up mobile developer tools.
 
+1. Course Introduction
+
+2. Why Responsive Images?
+> They shoud work no matter the screen size is.
+
+3. Intro to Project
+
+4. Setting up Your Environment
+
+5. Setup for mobile
+
+6. Using dev tools on mobile
+
+7. Mobile tools for iOS
+
+8. Lesson Wrap Up
+
+
 ## 7. Units, Formats, Environments
 Optimize images to display beautifully on all screen sizes. Learn about the difference between Raster vs Vector images, responsive CSS units, and setting up optimization tools.
 
