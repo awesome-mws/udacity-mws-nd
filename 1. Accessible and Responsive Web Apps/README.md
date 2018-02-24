@@ -227,7 +227,7 @@ Optimize images to display beautifully on all screen sizes. Learn about the diff
 [Firefox DOM_Property_Viewer](https://developer.mozilla.org/en-US/docs/Tools/DOM_Property_Viewer)
 [Chrome DOM_Property_Viewer](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#selector_1)
 
-> In Chrome: You can see all the _DOM Properties_ for a certain element by using *console.dir($0)*
+> In Chrome: You can see all the _DOM Properties_ for a certain element by using **console.dir($0)**
 
 ```javascript
 // For checking the width of the img
@@ -236,34 +236,56 @@ $0.naturalwidth
 2. All about Bits and Pixels
 
 
-3.Requests and Revenue
+3. Requests and Revenue
 
 
-4.
+4. Relative Sizing [Calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
 
-5.
+5. IMPORTANT! Udacity Front End Feedback Extension
 
-6.
+6. calc()
+> Note: There MUST be a space on each side of the + and - operators. (A space is not required around * and / as the problem is an ambiguity around negation.) For example: calc(100px - 10%) will work. calc(100px-10%) will not.
 
-7.
+```css
+margin-right: 10px;
+width: calc((100% - 20px)/3);
 
-8.
+/* This means that there is no margin right after the last img */
+img:last-of-type{
+margin-right: 0;
+}
+```
+7. Landscape and Portrait
+> Don't assume the view-port will always stay the same. The screen orientation can rotate and miss up your calculation
 
-9.
+8.Less Well Known CSS Units
+> vh and vw. viewport height and viewport width. vmin and vmax
 
-10.
+9. Raster and Vector
+[vector-vs-raster-what-do-i-use](https://designshack.net/articles/layouts/vector-vs-raster-what-do-i-use/)
 
-11.
+10. Rastor or Vector ?
+> Vector images can be scaled infinitely, which means that it'll be sharp and clear even on a 50m banner
 
-12.
+11. Raster and Vector Identification
+> SVG are vectors. JPG and PNG are Raster
 
-13.
+12. File formats
+> Use svg because it is really small and fast.
 
-14.
+13. Spot the Differences 
 
-15.
+14. Spot the Differences 2
+> Compression ratio is different
 
-16.
+15. Image Compression [pagespeed](https://developers.google.com/speed/pagespeed/insights/)
+
+16. Project Part 1
+[imagemagick](http://www.imagemagick.org/script/index.php)
+[grunt-is-not-weird](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
+[srcset-with-grunt](https://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/)
+[grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
+
 
 17.
 
