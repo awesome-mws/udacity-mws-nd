@@ -434,8 +434,87 @@ alt attributes should be set on every image, just like this pig is set on being 
 ## 10. Accessibility Overview
 Explore the diversity of different users experience with websites and applications. Learn about using screen readers practically and recognize the challenge of building web experiences for all users.
 
+1. Introduction to Accessibility [Google and Udacity course on Accessibility.](https://github.com/udacity/ud891)
+> We often shorten the word "accessibility" to "a11y" because there's 11 letters between the "A" and "Y" in the word "Accessibility"
+
+2. What is Accessibility
+
+3. Understanding the diversity of users
+> Some statistics on disability for the US:
+ Around 2% of the population has some kind of vision disability (i.e. are blind or have significant difficulty seeing even with glasses)
+Around 50% of the population has some kind of clinically significant refractive error (a visual impairment which may be corrected with glasses if mild enough)
+Around 8% of males and 0.5% of females have some form of color vision deficiency
+Around 2% of adults have a hearing disability
+Over 4% have a cognitive disability (difficulty remembering, concentrating, or making decisions)
+
+4. Diversity of Users (Broken Arm)
+> Correct! A broken arm would be a motor impairment that is temporary.
+
+5. Diversity of Users (Blindness)
+
+6. Diversity of Users (Audio)
+
+7. Diversity of Users (Baby)
+> Holding a baby in one arm will definitely impact someone's motor abilities.
+
+8. Diversity of Users (Concussion)
+> A concussion can impair a person's visual and cognitive abilities. A concussion is a temporary impairment.
+
+9. Diversity of Users (RSI)
+> RSI can be a temporary or permanent impairment. RSI can be a temporary or permanent impairment.
+
+10. Using a Screen Reader
+
+11. Experiencing a screen reader
+> Koala 
+
+12. Checklists
+[Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
+[WebAIM's](https://webaim.org/standards/wcag/checklist)
+
+13. Using WebAIM Checklist
+> Operable 2.4.2
+
+14. Gear Shift into Course Practicalities
+
 ## 11. Focus
 Manage focus - the location on a page that receives input from the keyboard. Discover how some users navigate website entirely with the keyboard, and how to optimize their experience.
+
+1. 
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
 
 ## 12. Semantics Basics
 Dive into the differences between visual UI and semantically designed accessible UI. Add semantic elements to HTML to create a user interface that works for everyone.
