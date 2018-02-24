@@ -286,8 +286,21 @@ margin-right: 0;
 [srcset-with-grunt](https://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/)
 [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
 
+```javascript 
+// Download imagemagick for your OS https://www.imagemagick.org/script/download.php
+// cd to the project folder then type
+npm install
+npm install -g grunt
 
-17.
+// inside the grunt file type 
+width: 1600,
+suffix: '_large_2x',
+quality: 30
+
+// ready!set!responsiveimages!
+```
+
+> If the grunt tool didn't work for you. This website can be helpful (http://compressimage.toolur.com)
 
 ## 8. Images with Markup
 Dive deep into image alternatives like CSS and icon fonts and learn common strategies to alleviate latency.
