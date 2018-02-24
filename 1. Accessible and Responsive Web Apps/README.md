@@ -293,17 +293,22 @@ margin-right: 0;
 [srcset-with-grunt](https://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/)
 [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
 
+- checkmark 'add to PATH'
+- in gruntfile.js change the line 'engine:im' to 'engine:gm' which basically tells grunt to look for graphicsMagick(gm) instead of ImageMagick(im)
+
 ```javascript 
 // Download imagemagick for your OS https://www.imagemagick.org/script/download.php
+// Make sure you add it to the path variable
 // cd to the project folder then type
+
 npm install
 npm install -g grunt
 
-// inside the grunt file type 
+// inside the grunt file change the line 'engine:im' to 'engine:gm'
+//Also add this code
 width: 1600,
 suffix: '_large_2x',
 quality: 30
-
 // ready!set!responsiveimages!
 ```
 
