@@ -317,8 +317,90 @@ quality: 30
 ## 8. Images with Markup
 Dive deep into image alternatives like CSS and icon fonts and learn common strategies to alleviate latency.
 
+1. Performance
+
+2. Text Problems
+
+3. CSS Techniques [fast-loading](https://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
+
+4. CSS background images
+
+5. CSS background image techniques
+> cover vs contain
+
+6. Symbol characters
+> You might find your symbol as charaters which will inherit all the text properties.
+
+7. Unicode Treble Clef [Unicode Table](https://unicode-table.com/en/#control-character)
+
+8. Icon Fonts
+[zocial](http://zocial.smcllns.com/)
+[fontawesome](https://fontawesome.com/)
+[weloveiconfonts](http://weloveiconfonts.com/)
+[CSS Tricks](https://css-tricks.com/examples/IconFont/)
+[ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+
+9. Inlining images with SVG and data URIs
+
+10. Strategy Quiz 1
+
+11. Strategy Quiz 2
+
+12. Strategy Quiz 3
+
+13. Strategy Quiz 4
+
+14. Project Part 2
+
 ## 9. Full Responsiveness
 Learn to use the srcset attribute and the picture element to choose images of the right size for your application for every viewing context.
+
+1. Responding to Screen Capability & View
+> Media queris will not help. There are other ways. 
+
+2. srcset
+> There are two flavors of srcset, one using x to differentiate between device pixel ratios (DPR), and the other using w to describe the image's width.
+
+#### window.devicePixelRatio - will give you your device pixel ratio
+
+[srcset-sizes](http://ericportis.com/posts/2014/srcset-sizes/)
+[high-dpi](https://www.html5rocks.com/en/mobile/high-dpi/)
+[pixe density](http://pixensity.com/list/phone/)
+
+3.Sizes Attribute
+> In JavaScript you can get the source of an img element with **currentSrc**.
+The sizes attribute gives the browser information about the display size of an image element – it does not actually cause the image to be resized. That's done in CSS!
+
+4. Srcset
+#### Reacting to Device Pixel Ratio
+> Set srcset equal to a comma separated string of **filename multiplier** pairs, where each **multiplier** must be an integer followed by an **x**.
+For example, **1x** represents 1x displays and **2x** represents displays with twice the pixel density, like Apple's Retina displays.
+The browser will download the image that best corresponds to its DPR .
+Also, note that there's a **src** attribute as a fallback.
+
+#### Reacting to Image Width
+> Set srcset equal to a comma separated string of **filename widthDescriptor** pairs, where each **widthDescriptor** is measured in pixels and must be an integer followed by a **w**. Here, the widthDescriptor gives the natural width of each image file, which enables the browser to choose the most appropriate image to request, depending on viewport size and DPR. (Without the widthDescriptor, the browser cannot know the width of an image without downloading it!)
+```html
+<img class="dpi" src="images/Den_Haag_2x.jpg" srcset="images/Den_Haag_2x.jpg 2x, images/Den_Haag_1x.jpg 1x" alt="Den Haag Skyline">
+<img class="w" src="images/Australia_1280w.jpg" srcset="images/Australia_1280w.jpg 1280w, images/Australia_640w.jpg 640w" alt="Australia from Space">
+```
+
+5. Scrset and Sizes
+> What if the image won't be displayed at the full viewport width? Then you need something more than srcset, which assumes the image will be full viewport width. Add a sizes attribute to the image with a media query and a vw value. srcset and sizes together tell the browser the natural width of the image, and how wide the image will be displayed relative to viewport width. Knowing the display width of the image and the widths of the image files available to it, the browser has the information it needs to download the image with the right resolution for its needs that is as small as possible. And it can make this choice early in the page load while the HTML is still being parsed.
+
+
+6.
+
+7.
+
+8.
+
+9.
+
+10
+
+11.
+
 
 ## 10. Accessibility Overview
 Explore the diversity of different users experience with websites and applications. Learn about using screen readers practically and recognize the challenge of building web experiences for all users.
