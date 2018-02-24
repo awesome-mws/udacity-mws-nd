@@ -207,17 +207,65 @@ Sam Dutton, the developer advocate at Google, explains the importance of getting
 
 4. Setting up Your Environment
 
-5. Setup for mobile
+5. Setup for mobile [Helpful Link](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/?hl=en)
 
-6. Using dev tools on mobile
+6. Using dev tools on mobile 
 
-7. Mobile tools for iOS
+7. Mobile tools for iOS [Helpful Link](https://github.com/google/ios-webkit-debug-proxy)
 
 8. Lesson Wrap Up
 
-
 ## 7. Units, Formats, Environments
 Optimize images to display beautifully on all screen sizes. Learn about the difference between Raster vs Vector images, responsive CSS units, and setting up optimization tools.
+
+1. Sizing Intro
+> Make sure the recording icon is red. Then disable the cache. Then Hit F5.
+
+#### To manipulate an element in the DOM. CLick on that element. (In your console) type $0. If the console is not showing below your element tab then go the _horizontal three dots_ and click on show console drawer. 
+
+[Edit DOM](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
+[Firefox DOM_Property_Viewer](https://developer.mozilla.org/en-US/docs/Tools/DOM_Property_Viewer)
+[Chrome DOM_Property_Viewer](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#selector_1)
+
+> In Chrome: You can see all the _DOM Properties_ for a certain element by using *console.dir($0)*
+
+```javascript
+// For checking the width of the img
+$0.naturalwidth
+```
+2. All about Bits and Pixels
+
+
+3.Requests and Revenue
+
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
 
 ## 8. Images with Markup
 Dive deep into image alternatives like CSS and icon fonts and learn common strategies to alleviate latency.
