@@ -234,12 +234,19 @@ Optimize images to display beautifully on all screen sizes. Learn about the diff
 $0.naturalwidth
 ```
 2. All about Bits and Pixels
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/7.2.PNG)
 
 
 3. Requests and Revenue
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/7.3.PNG)
 
 
 4. Relative Sizing [Calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/7.4.1.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/7.4.2.PNG)
+
 
 5. IMPORTANT! Udacity Front End Feedback Extension
 
