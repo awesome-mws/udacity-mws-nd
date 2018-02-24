@@ -1,4 +1,4 @@
-# Accessible & Responsive Web Apps (due August 6th)
+# Accessible & Responsive Web Apps (due April 6th)
 
 ## 1. Why Responsive:
 
@@ -318,7 +318,7 @@ quality: 30
 Dive deep into image alternatives like CSS and icon fonts and learn common strategies to alleviate latency.
 
 1. Performance
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/8.1.PNG)
 
 2. Text Problems
 
@@ -360,7 +360,7 @@ Learn to use the srcset attribute and the picture element to choose images of th
 > Media queris will not help. There are other ways. 
 
 2. srcset
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.2.PNG)
 > There are two flavors of srcset, one using x to differentiate between device pixel ratios (DPR), and the other using w to describe the image's width.
 
 #### window.devicePixelRatio - will give you your device pixel ratio
@@ -372,10 +372,10 @@ Learn to use the srcset attribute and the picture element to choose images of th
 3. Sizes Attribute
 > In JavaScript you can get the source of an img element with **currentSrc**.
 The sizes attribute gives the browser information about the display size of an image element – it does not actually cause the image to be resized. That's done in CSS!
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.2.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.3.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.4.PNG)
 
 4. Srcset
 #### Reacting to Device Pixel Ratio
@@ -408,11 +408,11 @@ sizes gives the browser one more piece of information to ensure that it download
 In this example, the browser knows that the image will be full viewport width if the browser's viewport is 400px wide or less, and half viewport width if greater than 400px. It knows that it has two image options - one with a natural width of 400px and the other 800px.
 
 6. The Picture Element
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.6.PNG)
 
 7. The Full Monty [Element/picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
-![]()
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.7.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.7.2.PNG)
 
 8. Accessibility
 > General advice about alt attributes
@@ -426,8 +426,8 @@ alt attributes should be set on every image, just like this pig is set on being 
 
 > allthepictures,allthetime
 
-![]()
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.10.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.10.2.PNG)
 
 
 
