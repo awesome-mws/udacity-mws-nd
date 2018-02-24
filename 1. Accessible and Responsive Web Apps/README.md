@@ -318,6 +318,7 @@ quality: 30
 Dive deep into image alternatives like CSS and icon fonts and learn common strategies to alleviate latency.
 
 1. Performance
+![]()
 
 2. Text Problems
 
@@ -359,6 +360,7 @@ Learn to use the srcset attribute and the picture element to choose images of th
 > Media queris will not help. There are other ways. 
 
 2. srcset
+![]()
 > There are two flavors of srcset, one using x to differentiate between device pixel ratios (DPR), and the other using w to describe the image's width.
 
 #### window.devicePixelRatio - will give you your device pixel ratio
@@ -367,9 +369,13 @@ Learn to use the srcset attribute and the picture element to choose images of th
 [high-dpi](https://www.html5rocks.com/en/mobile/high-dpi/)
 [pixe density](http://pixensity.com/list/phone/)
 
-3.Sizes Attribute
+3. Sizes Attribute
 > In JavaScript you can get the source of an img element with **currentSrc**.
 The sizes attribute gives the browser information about the display size of an image element – it does not actually cause the image to be resized. That's done in CSS!
+![]()
+![]()
+![]()
+![]()
 
 4. Srcset
 #### Reacting to Device Pixel Ratio
@@ -387,19 +393,42 @@ Also, note that there's a **src** attribute as a fallback.
 
 5. Scrset and Sizes
 > What if the image won't be displayed at the full viewport width? Then you need something more than srcset, which assumes the image will be full viewport width. Add a sizes attribute to the image with a media query and a vw value. srcset and sizes together tell the browser the natural width of the image, and how wide the image will be displayed relative to viewport width. Knowing the display width of the image and the widths of the image files available to it, the browser has the information it needs to download the image with the right resolution for its needs that is as small as possible. And it can make this choice early in the page load while the HTML is still being parsed.
+```html
+<img  src="images/great_pic_800.jpg"
+      sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw"
+      srcset="images/great_pic_400.jpg 400w, images/great_pic_800.jpg 800w"
+      alt="great picture">
+<!-- Quiz Answer -->
+<img class="w" src="images/Coffee_1280w.jpg" srcset="images/Coffee_1280w.jpg 1280w, images/Coffee_640w.jpg 640w" sizes="(max-width: 960px) 50vw, 100vw" alt="Coffee by Amy March from Turkey">
 
+```
+> sizes consists of comma separated mediaQuery width pairs. sizes tells the browser early in the load process that the image will be displayed at some width when the mediaQuery is hit.
+In fact, if sizes is missing, the browser defaults sizes to 100vw, meaning that it expects the image will display at the full viewport width.
+sizes gives the browser one more piece of information to ensure that it downloads the right image file based on the eventual display width of the image. Just to be clear, it does not actually resize the image - that's what CSS does.
+In this example, the browser knows that the image will be full viewport width if the browser's viewport is 400px wide or less, and half viewport width if greater than 400px. It knows that it has two image options - one with a natural width of 400px and the other 800px.
 
-6.
+6. The Picture Element
+![]()
 
-7.
+7. The Full Monty [Element/picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+![]()
+![]()
 
-8.
+8. Accessibility
+> General advice about alt attributes
+alt attributes should be descriptive for important images, like this body surfer. Because body surfing is important, I guess.
+alt attributes should be empty for images that are just decorations, like this boiler image. Do you get the joke? It's a boiler to represent boiler plate code, which is sometimes empty of content.
+alt attributes should be set on every image, just like this pig is set on being so darn cute.
 
-9.
+9. Accessibility Promise
 
-10
+10. Project 
 
-11.
+> allthepictures,allthetime
+
+![]()
+![]()
+
 
 
 ## 10. Accessibility Overview
