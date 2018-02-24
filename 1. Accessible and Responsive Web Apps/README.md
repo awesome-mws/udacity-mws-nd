@@ -480,7 +480,54 @@ Over 4% have a cognitive disability (difficulty remembering, concentrating, or m
 ## 11. Focus
 Manage focus - the location on a page that receives input from the keyboard. Discover how some users navigate website entirely with the keyboard, and how to optimize their experience.
 
-1. 
+1. Introduction to Focus
+
+2. What is Focus?
+> TAB will move focus forward / SHIFT - TAB will move focus backwards / Arrow keys can be used to navigate inside of a component
+
+3. Experiencing Focus
+
+4. DOM Order Matters
+
+5. Fixing DOM Order
+
+6. Using tabindex [tabindex](https://www.w3.org/TR/html5/editing.html#sequential-focus-navigation-and-the-tabindex-attribute)
+
+7. Deciding whats in focus
+
+8. Which Elements Should Have Focus?
+
+9. Managing Focus
+
+10. Manage Focus Yourself
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/11.10.PNG)
+
+
+11. Skip Links [Skiplink](https://developers.google.com/web/updates/2016/03/focus-start-point?hl=en)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/11.11.2.PNG)
+
+
+12. Focus in Complex Components [aria](https://www.w3.org/TR/wai-aria-practices/)
+
+13. Keyboard Design Patterns
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/11.13.PNG)
+
+
+14. Implementing Keyboard Event Listeners
+> lesson2-focus/05-radio-group
+
+15. Offscreen Content
+> To find your missing focus you can type the following into your console: **document.activeElement**
+
+16. Implementing Offscreen Content
+> Changing the css for the specific class to display:none; will remove that element for the tab order.
+
+17. Modals and Keyboard Traps
+
+## 12. Semantics Basics
+Dive into the differences between visual UI and semantically designed accessible UI. Add semantic elements to HTML to create a user interface that works for everyone.
+
+1.
 
 2.
 
@@ -513,11 +560,6 @@ Manage focus - the location on a page that receives input from the keyboard. Dis
 16.
 
 17.
-
-18.
-
-## 12. Semantics Basics
-Dive into the differences between visual UI and semantically designed accessible UI. Add semantic elements to HTML to create a user interface that works for everyone.
 
 ## 13. Navigating Content
 Implement effective semantic navigation using headings, link text and landmarks.
