@@ -372,6 +372,7 @@ Learn to use the srcset attribute and the picture element to choose images of th
 3. Sizes Attribute
 > In JavaScript you can get the source of an img element with **currentSrc**.
 The sizes attribute gives the browser information about the display size of an image element – it does not actually cause the image to be resized. That's done in CSS!
+
 ![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.PNG)
 ![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.2.PNG)
 ![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/9.3.3.PNG)
@@ -500,6 +501,7 @@ Manage focus - the location on a page that receives input from the keyboard. Dis
 9. Managing Focus
 
 10. Manage Focus Yourself
+
 ![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/11.10.PNG)
 
 
@@ -535,44 +537,49 @@ Dive into the differences between visual UI and semantically designed accessible
 > Are cues. Such as buttons and scroll bar. When you see a button you already know that you can click it. Even if nobody told you. 
 
 4. Experiencing Affordances
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.4.PNG)
 
 5. Semantics and Assistive Technology
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.5.PNG)
 
 6. Experience Using a Screenreader
 
 7. Role, Name, Value
-![]()
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.7.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.7.2.PNG)
 
 8. Experience a Screen Reader 2
 
 9. The Accessibility Tree
-![]()
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.9.PNG)
 
 10. Matching simple DOM and A11y Tree
-![]()
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.10.PNG)
 
 11. Semantics in Native HTML
 
 12. Writing Semantic HTML Quiz
-![]()
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.12.PNG)
 
 13. Writing Semantic HTML: The Name Game
 
 14. Labeling Input Elements
 > Using the ChromeVox you could easily tell which element has a label because it is going to read it out loud.
-![]()
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.14.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.14.2.PNG)
 
 15. Text Alternatives
+
 > If you want to skip your image form being read by the screen reader, then you should give your image an empty alt text **alt=""**
-![]()
-![]()
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.15.PNG)
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.15.1.PNG)
 
 16. Labeling Images With ALT Text
-![]()
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/12.16.PNG)
 
 ## 13. Navigating Content
 Implement effective semantic navigation using headings, link text and landmarks.
