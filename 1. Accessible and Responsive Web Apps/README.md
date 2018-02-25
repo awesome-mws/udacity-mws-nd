@@ -527,42 +527,78 @@ Manage focus - the location on a page that receives input from the keyboard. Dis
 ## 12. Semantics Basics
 Dive into the differences between visual UI and semantically designed accessible UI. Add semantic elements to HTML to create a user interface that works for everyone.
 
-1.
+1. Semantics Introduction
 
-2.
+2. Assistive Technology
 
-3.
+3. Affordances
+> Are cues. Such as buttons and scroll bar. When you see a button you already know that you can click it. Even if nobody told you. 
 
-4.
+4. Experiencing Affordances
+![]()
 
-5.
+5. Semantics and Assistive Technology
+![]()
 
-6.
+6. Experience Using a Screenreader
 
-7.
+7. Role, Name, Value
+![]()
+![]()
 
-8.
+8. Experience a Screen Reader 2
 
-9.
+9. The Accessibility Tree
+![]()
 
-10.
+10. Matching simple DOM and A11y Tree
+![]()
 
-11.
+11. Semantics in Native HTML
 
-12.
+12. Writing Semantic HTML Quiz
+![]()
 
-13.
+13. Writing Semantic HTML: The Name Game
 
-14.
+14. Labeling Input Elements
+> Using the ChromeVox you could easily tell which element has a label because it is going to read it out loud.
+![]()
+![]()
 
-15.
+15. Text Alternatives
+> If you want to skip your image form being read by the screen reader, then you should give your image an empty alt text **alt=""**
+![]()
+![]()
 
-16.
-
-17.
+16. Labeling Images With ALT Text
+![]()
 
 ## 13. Navigating Content
 Implement effective semantic navigation using headings, link text and landmarks.
+
+1. Semantics - Navigating content - Intro
+
+2. Navigating with a screen reader
+
+3. Navigating by Headings
+
+4. Using Headings
+
+5. Using Headings
+
+6. Other navigational options
+
+7. Other navigational options example
+
+8. Link Text
+
+9. Link Text Quiz
+
+10. Landmarks
+
+11. Landmarks Quiz
+
 
 ## 14. ARIA
 Sometimes an HTML element may not have a role or value assigned semantically. In this lesson, you'll use ARIA attributes to provide context for screen readers.
