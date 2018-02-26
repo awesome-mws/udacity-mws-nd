@@ -632,6 +632,48 @@ CTRL + Option + W to have a word spelled out
 ## 14. ARIA
 Sometimes an HTML element may not have a role or value assigned semantically. In this lesson, you'll use ARIA attributes to provide context for screen readers.
 
+1. Intro to Semantics: ARIA
+
+
+2. Why ARIA
+
+3. First Steps with ARIA
+
+4. What can ARIA do for you?
+
+5. Roleplaying
+
+6. Custom radio button group with ARIA
+
+7. More Ways to Label
+
+8. Name That Element!
+
+9. Breather
+
+10. Default Semantics and Landmarks
+
+11. ARIA Relationships
+
+12. Combo Box
+
+13. Hidden In Plain Sight
+
+14. Name That Element Round 2
+
+15. Recap so far
+
+16. Introducing ARIA Live
+
+17. Atomic Relevant Busy
+
+18. Recap
+
+19. Modal Dialog Quiz
+
+
+
+
 ## 15. Style
 Incorporate CSS styling into your accessible web design and use accessible colour schemes to improve accessibility.
 
