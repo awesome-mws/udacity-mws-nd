@@ -656,6 +656,7 @@ Sometimes an HTML element may not have a role or value assigned semantically. In
 11. ARIA Relationships
 
 12. Combo Box
+> By using aria-setsize appropriately, we can tell assistive technology how many items are within an **option** or **listitem** element.
 
 13. Hidden In Plain Sight
 
