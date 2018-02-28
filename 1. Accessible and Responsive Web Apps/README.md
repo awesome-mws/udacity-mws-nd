@@ -722,8 +722,8 @@ Incorporate CSS styling into your accessible web design and use accessible colou
 
 1. Introduction to Style
 
-
 2. Working with focus styles
+> Sometimes the default blue focus doesn't fit your desgin. For that you can use the 
 
 3. Write your own focus styles
 
