@@ -720,6 +720,42 @@ Sometimes an HTML element may not have a role or value assigned semantically. In
 ## 15. Style
 Incorporate CSS styling into your accessible web design and use accessible colour schemes to improve accessibility.
 
+1. Introduction to Style
+
+
+2. Working with focus styles
+
+3. Write your own focus styles
+
+4. Input Modality
+
+5. Styling with Aria
+
+6. Quiz: Styling with ARIA
+
+7. Responsive design for multi-device
+
+8. Responsive design for multi-device Pt. 2
+
+9. Mobile Screen Readers
+
+10. Mobile Screen Readers iOS
+
+11. Mobile Screen Readers Android
+
+12. Using Mobile Screen Readers
+
+13. Seque to Color & Contrast
+
+14. Meeting Contrast Requirements
+
+15. Contrast Audit
+
+16. Don’t convey info with color alone
+
+17. High Contrast Mode
+
+
 ## 16. The Benefits of Offline First
 
 ## 17. Introducing the Service Worker
