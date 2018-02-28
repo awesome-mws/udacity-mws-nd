@@ -637,21 +637,51 @@ Sometimes an HTML element may not have a role or value assigned semantically. In
 
 2. Why ARIA
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.2.PNG)
+
 3. First Steps with ARIA
 
+
 4. What can ARIA do for you?
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.4.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.4.1.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.4.2.PNG)
+
 
 5. Roleplaying
 
 6. Custom radio button group with ARIA
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.6.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.6.1.PNG)
+
+
 7. More Ways to Label
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.7.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.7.PNG)
+
+
 8. Name That Element!
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.8.PNG)
+
 
 9. Breather
 
 10. Default Semantics and Landmarks
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.10.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.10.1.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.10.2.PNG)
+
 
 11. ARIA Relationships
 
@@ -660,7 +690,13 @@ Sometimes an HTML element may not have a role or value assigned semantically. In
 
 13. Hidden In Plain Sight
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.13.PNG)
+
+
 14. Name That Element Round 2
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.14.PNG)
+
 
 15. Recap so far
 
@@ -668,9 +704,15 @@ Sometimes an HTML element may not have a role or value assigned semantically. In
 
 17. Atomic Relevant Busy
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.17.PNG)
+
+
 18. Recap
 
 19. Modal Dialog Quiz
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.19.PNG)
+
 
 
 
