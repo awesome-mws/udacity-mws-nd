@@ -714,36 +714,53 @@ Sometimes an HTML element may not have a role or value assigned semantically. In
 ![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/14.19.PNG)
 
 
-
-
-
 ## 15. Style
 Incorporate CSS styling into your accessible web design and use accessible colour schemes to improve accessibility.
 
 1. Introduction to Style
 
 2. Working with focus styles
-> Sometimes the default blue focus doesn't fit your desgin. For that you can use the 
+> Sometimes the default blue focus doesn't fit your desgin. For that you can use the Voice
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.2.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.2.1.PNG)
+
 
 3. Write your own focus styles
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.3.PNG)
+
+
 4. Input Modality
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.4.PNG)
 
 5. Styling with Aria
 
 6. Quiz: Styling with ARIA
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.6.PNG)
+
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.6.1.PNG)
+
+
 7. Responsive design for multi-device
 
 8. Responsive design for multi-device Pt. 2
 
+![](https://github.com/awesome-mws/udacity-mws-nd/blob/master/1.%20Accessible%20and%20Responsive%20Web%20Apps/img/15.8.PNG)
+
 9. Mobile Screen Readers
 
 10. Mobile Screen Readers iOS
+> It's called voice over. You might need to install the english language.It can be also called Voice Assistant
 
 11. Mobile Screen Readers Android
+> It's called Talkback
 
 12. Using Mobile Screen Readers
+> Kangaroo
 
 13. Seque to Color & Contrast
 
