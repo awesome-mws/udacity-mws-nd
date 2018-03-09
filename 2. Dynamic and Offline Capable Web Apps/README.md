@@ -8,7 +8,7 @@
 
 3. Ajax Definition & Examples
 
-![]()
+![](./img/1.3.PNG)
 
 4. APIs
 
@@ -31,7 +31,7 @@ asyncRequestObject.open('GET', 'https://unsplash.com');
 
 8. XHR's .send() method
 
-![]()
+![](./img/1.8.gif)
 
 > To handle the successful response of an XHR request, we set the onload property on the object to a function that will handle it: As with onload, if onerror isn't set and an error occurs, that error will just fail silently and your code (and your user!) won't have any idea what's wrong or any way to recover."
 
@@ -81,7 +81,7 @@ asyncRequestObject.onload = handleSuccess;
 
 11. Setting a Request Header
 
-![]()
+![](./img/1.11.PNG)
 
 
 ```javascript 
