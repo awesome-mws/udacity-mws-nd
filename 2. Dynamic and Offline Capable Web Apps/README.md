@@ -35,8 +35,6 @@ asyncRequestObject.open('GET', 'https://unsplash.com');
 
 > To handle the successful response of an XHR request, we set the onload property on the object to a function that will handle it: As with onload, if onerror isn't set and an error occurs, that error will just fail silently and your code (and your user!) won't have any idea what's wrong or any way to recover."
 
-NEXT
-
 ```javascript
 function handleSuccess () {
     // in the function, the `this` value is the XHR object
@@ -83,7 +81,6 @@ asyncRequestObject.onload = handleSuccess;
 
 ![](./img/1.11.PNG)
 
-
 ```javascript 
 const searchedForText = 'hippos';
 const unsplashRequest = new XMLHttpRequest();
@@ -96,6 +93,7 @@ unsplashRequest.send();
 function addImage(){
 }
 ```
+
 12. Project Final Walkthrough
 
 13. XHR Recap
@@ -114,11 +112,103 @@ use the .responseText property - holds the text of the async request's response
 14. XHR Outro
 
 
-## 2 Ajax with jQuery
+## 2. Ajax with jQuery
 In this lesson, you'll compare using XHR with using jQuery's Ajax method. You'll send and receive data using jQuery's Ajax methods and learn how jQuery's Ajax works under the hood.
+
+1. The jQuery Library & Ajax
+
+2. jQuery's `ajax()` Method
+
+> $.ajax({
+    url: 'http://swapi.co/api/people/1/'
+});
+
+![]()
+
+3. Handling The Returned Data
+
+> If you recall from setting up an XHR object, the response was handled by a function. It's the same thing with the .ajax() method. We can chain on to .ajax() with a .done() method. We pass the .done() method a function that will run with the Ajax call is done!
+
+```javascript
+function handleResponse(data) {
+    console.log('the ajax request has finished!');
+    console.log(data);
+}
+$.ajax({
+    url: 'http://swapi.co/api/people/1/'
+}).done(handleResponse);
+```
+
+> Let's convert the existing, plain XHR call with jQuery's .ajax(). This is what the app currently has:
+
+```javascript
+const imgRequest = new XMLHttpRequest();
+imgRequest.onload = addImage;
+imgRequest.open('GET', `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`);
+imgRequest.setRequestHeader('Authorization', 'Client-ID <your-client-id-here>');
+imgRequest.send();
+
+$.ajax({
+    url: `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`
+}).done(addImage);
+```
+
+> QUIZ: The correct answer is option 4. A header is added to the request by passing a headers object as a property. Each key in the headers object is the name of the header, and the value is what will be used as the value for the header.
+
+
+4. Cleaning up the Success Callback
+
+```javascript
+function addImage() {
+    const data = JSON.parse(this.responseText);
+    const firstImage = data.results[0];
+
+    responseContainer.insertAdjacentHTML('afterbegin', `<figure>
+            <img src="${firstImage.urls.small}" alt="${searchedForText}">
+            <figcaption>${searchedForText} by ${firstImage.user.name}</figcaption>
+        </figure>`
+    );
+}
+//We just need to change the first three lines:
+
+function addImage(images) {
+    const firstImage = images.results[0];
+
+    responseContainer.insertAdjacentHTML('afterbegin', `<figure>
+            <img src="${firstImage.urls.small}" alt="${searchedForText}">
+            <figcaption>${searchedForText} by ${firstImage.user.name}</figcaption>
+        </figure>`
+    );
+}
+```
+5. Code Walkthrough
+
+6. Peek inside $.ajax()
+
+![](./2.6.gif)
+
+7. Review the Call Stack
+
+> Look at jQuery's code and especially the jQuery.ajaxSettings.xhr function, we can see that the code is return new window.XMLHttpRequest();. So this code will return a new XHR object every time it's called (which happens every time $.ajax() is run!
+
+![](./2.9.1.gif)
+
+> jQuery uses a for…in loop to iterate over the data in the headers object. This can be seen on lines 9094-9096.
+
+8. Walkthrough of .ajaxTransport
+
+9. jQuery's Other Async Methods
+
+![](./2.9.gif)
+
+
+![](./2.9.1.gif)
+
+10. Async with jQuery Outro
 
 ## 3. Ajax with Fetch
 In this lesson, you'll use JavaScript Promises to create a fetch request and handle the returned data asynchronously. You'll also learn how to handle errors for failed requests.
+
 
 ## 4. Syntax
 
