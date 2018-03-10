@@ -123,7 +123,7 @@ In this lesson, you'll compare using XHR with using jQuery's Ajax method. You'll
     url: 'http://swapi.co/api/people/1/'
 });
 
-![]()
+![](./img/2.2.gif)
 
 3. Handling The Returned Data
 
@@ -185,13 +185,13 @@ function addImage(images) {
 
 6. Peek inside $.ajax()
 
-![](./2.6.gif)
+![](./img/2.6.gif)
 
 7. Review the Call Stack
 
 > Look at jQuery's code and especially the jQuery.ajaxSettings.xhr function, we can see that the code is return new window.XMLHttpRequest();. So this code will return a new XHR object every time it's called (which happens every time $.ajax() is run!
 
-![](./2.9.1.gif)
+![](./img/2.7.gif)
 
 > jQuery uses a for…in loop to iterate over the data in the headers object. This can be seen on lines 9094-9096.
 
@@ -199,16 +199,73 @@ function addImage(images) {
 
 9. jQuery's Other Async Methods
 
-![](./2.9.gif)
+![](./img/2.9.gif)
 
-
-![](./2.9.1.gif)
+![](./img/2.9.1.gif)
 
 10. Async with jQuery Outro
 
 ## 3. Ajax with Fetch
 In this lesson, you'll use JavaScript Promises to create a fetch request and handle the returned data asynchronously. You'll also learn how to handle errors for failed requests.
 
+1. Ajax call with the Fetch API
+
+2. What is Fetch
+
+> the new Fetch API utilizes Promises under the hood. If you've got a handle on how Promises work, then give yourself a pat on the back then skip down to the next section. If the word "Promises" makes you feel a little queasy and unsure of your life's future, don't panic! Breathe! Then head over to our short course on JavaScript Promises to level up your JavaScript muscles.
+
+3. Write the Fetch Request
+
+> The correct answers are options 2 and 3. The Fetch request takes the URL to the requested resource as the first argument, but the second argument is a configuration object. One of the options to this config object is a headers property.
+One of the new additions that rode along on the coattails of Fetch is a new Headers constructor function. The headers property of a Fetch request's configuration object can either be a plain object of headers to include, or it can be a Headers object that's been built up with headers.
+
+![](./img/3.3.gif)
+
+> The correct answer is that the GET HTTP method is used for a Fetch request.
+
+4. Handle The Response
+
+![](./img/3.4.gif)
+> The answer is none of the above, actually. Check below for where you can find the actual data!
+
+5. The Response Object
+
+> The correct answer is .blob(). .blob() will extract the image body from the response.
+
+[article 1](https://davidwalsh.name/fetch)
+[article 2](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Making_fetch_requests)
+
+
+6. ES6 Arrow Function
+
+![](./img/3.6.gif)
+
+7. Display Content & Handling Errors
+
+```javascript
+fetch(`https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`, {
+    headers: {
+        Authorization: 'Client-ID abc123'
+    }
+}).then(response => response.json())
+.then(addImage)
+.catch(e => requestError(e, 'image'));
+
+function addImage(data) {
+    debugger;
+}
+
+function requestError(e, part) {
+    console.log(e);
+    responseContainer.insertAdjacentHTML('beforeend', `<p class="network-warning">Oh no! There was an error making a request for the ${part}.</p>`);
+}
+```
+
+8. Project Wrap-up
+
+9. Fetch Outro
+
+10. Course Outro
 
 ## 4. Syntax
 
