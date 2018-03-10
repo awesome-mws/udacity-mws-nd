@@ -281,6 +281,14 @@ With this massive improvement, not all browsers are able to support this new ver
 ## 9. Introducing Web Tooling and Automation
 Learn how automation and tooling can make you more productive as a developer and allow you to work more faster and more efficiently.
 
+1. Course Intro
+
+2. Cost Effectiveness
+
+3. Common Sense
+
+4.On to the course!
+
 ## 10. Productive Editing
 Use keyboard shortcuts and code editor extensions to speed up your development process and help to avoid repetitive typing tasks.
 
