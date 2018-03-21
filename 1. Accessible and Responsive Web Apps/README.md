@@ -41,6 +41,12 @@
 
 11. Max-width on elements
 > Setting a `max-width` of 100% should avoid overflow for most elements.
+```css
+img, embed,
+object, video {
+  max-width: 100%;
+}
+```
 
 12. Relative Sizes
 `max-width` overrides `width` so if you have them both then the max width will overrides the styles.
